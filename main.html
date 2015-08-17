@@ -135,10 +135,10 @@
 <script type="text/javascript" src="../common/template/header1.js"></script>
 
 	<!-- App Title - Edit This Section -->
-		Your App's Name (EDIT ME)
+		SnapBack Apps Settings
 			<!-- Include a Link to your App's Connect Page -->
 			<div>
-                <a id="devpage" href="http://factory.snapback-apps.com/" title="Your App's Connect Page" style="text-decoration:none">Connect with Developers Here!</a>
+                <a id="devpage" href="http://factory.snapback-apps.com/app/settings/" title="Your App's Connect Page" style="text-decoration:none">Connect with Developers Here!</a>
 			<!-- End Connect Link -->
 			
 				<!-- Do Not Edit - This is Replaced on App Publication -->
@@ -180,7 +180,7 @@
 <!--      START: Page Content - Edit this Section     -->
 <!-- ************************************************ -->
 <ul class="tabs">
-    <li><a href="#tab1" title="Run this App from Here">Home</a></li>
+    <li><a href="#tab1" title="Configure Settings for SnapBack Apps">Home</a></li>
     <li><a href="#tab2" title="This App is free to Use">Pricing</a></li>
     <li><a href="#tab3" title="The technical details of what this App does">How it Works</a></li>
     <li><a href="#tab4" title="Record of Each Committee's work and report to users">What's Certified</a></li>
@@ -189,14 +189,11 @@
 </ul>
       				
 <div id="tab1">
-
-	<p class="developers-message">[To the Developer - Use this section to combine your app's functions with various buttons, describe your app, describe the group behind the app, and provide basic details/instructions to end users]</p>
 		
 	<div id="main-side">
-		<strong>NEED HELP?</strong><br />
-		<img src="..\common\media\apphelpers.jpg" alt="Your Group"/><br />
-		<a id="helpers" href="#" title="Include your Group Name">[Group Name]</a><br>
-		<p>Thanks for using our App.  Join us and help by visiting our home page!</p>
+		<strong>NEED HELP?</strong><br /><br />
+		<a id="connectpage" href="http://factory.snapback-apps.com/app/settings/" title="Visit the Connect Page for this App">The Settings App</a><br>
+		<p>Thanks for using our App. Visit or connect page if you have questions or suggestions to make this app work better!</p>
 				
 		<hr />
 								
@@ -204,52 +201,81 @@
 
 	</div>
 			
-    <p><strong>This area is dedicated to providing a description of your app.</strong></p>
-            
-    <p><strong>It's generally encouraged to include the following information: </strong></p>
-		<ol>
-			<li>A description of your app</li>
-			<li>Why this app is needed [the app's purpose]</li>
-			<li>Who this app is intended for [the app's audience]</li>
-			<li>Any other pertinent information you may find necessary</li>
-		</ol>
-						
+    <p>The "Settings" app allows you to configure certain features within the SnapBack Apps platform.  See the below list of features and their options.</p>
+            				
 	<table class="main-table">
 		<tr>
 			<td colspan="2"><hr /></td>
 		</tr>
 		<tr>
-			<td style="width: 25%;">
-				<div id="cdpbutton1">
-					<p><button onclick="javascript:runapp('displaymessage.js')" title="cdpbutton1: Clicking this button will run a script!">Run Your App</button></p>
-				</div>
-			</td>
+			<th colspan=2">SnapBacks Apps Version</th>
+		</tr>
+		<tr>
+			<td>Version Number</td>
+			<td>123.456.789</td>
+		</tr>
+		<tr>
+			<td>Changelog</td>
+			<td><a href="" title="">Click to view the SnapBack Apps changelog</a></td>
+		</tr>
+		<tr>
+			<th colspan=2">Platform Preferences</th>
+		</tr>
+		<tr>
+			<td>Language</td>
 			<td>
-				This App displays a message when the user clicks the button on the left.
+				<select>
+				  <option value="english">English</option>
+				  <option value="spanish">Espa&ntilde;ol</option>
+				  <option value="italian">Italiano</option>
+				  <option value="portuguese">Portugu&ecirc;s</option>
+				</select>
 			</td>
 		</tr>
 		<tr>
-			<td style="border: none;" colspan="2"><hr /></td>
+			<td>Autostart</td>
+			<td><input type="checkbox" name="" id=""> Automatically Start (when you login to Windows)</td>
+		</tr>
+		<tr>
+			<td>HotKeys</td>
+			<td><input type="checkbox" name="" id=""> Enable HotKeys (learn more here)</td>
+		</tr>
+		<tr>
+			<th colspan=2">Administrator Settings</th>
+		</tr>
+		<tr>
+			<td>Password Reset</td>
+			<td><input type="text" name="password" value="Enter New Password"> <input type="submit" value="Reset Password"></td>
+		</tr>
+		<tr>
+			<td>Allow Novice Users to Run</td>
+			<td><input type="checkbox" name="" id=""> Allow Novice Users to run all apps, including those designated as safe for administrators only.</td>
+		</tr>
+		<tr>
+			<td>Allow Novice Users to Change</td>
+			<td><input type="checkbox" name="" id=""> Allow Novice Users to make changes to the SnapBack Apps Platform (such as configuring settings for specific apps), including those settings designated as safe for administrators only.</td>
+		</tr>
+		<tr>
+			<th colspan=2">Save & Update</th>
+		</tr>
+		<tr>
+			<td>Save</td>
+			<td><input type="submit" value="Save Settings"></td>
 		</tr>
 	</table>
             
-	<div style="clear: both"></div>
-			
-    <p>To use this template, clone/copy this directory and open the included files in your editor of choice.</p>						
+	<div style="clear: both"></div>						
       				
 </div><!--End Tab1-->
       				
 <div id="tab2">
       
-	<p class="developers-message">[To the Developer - Use this section to detail any associated costs with your app.]</p>
-	
 	<p><strong>No Cost to You.</strong></p>
 	
 	<p>All SnapBack Apps are free for both business and personal use, provided that the SnapBack Platform is "hand installed", by a user and not "mass installed".    However, for some apps they may be working with or modify another application, such as Microsoft Word, which is obviously not free.  Sometimes we might independently offer that application to you with a link to a separate page.  If and when we offer you the software, we warrant that to our best ability, we've fully disclosed which products in that category are best, the least cost prices with links, along with any dissenting opinions from contributors like you. </p>
 	
 	<p>For all our users, contributors, attributable sources, and other companies, we've prepared an easy to understand page that explains all our <a id="policiesterms" href="#" >Policies, Complete Terms, and Conditions of our SnapBack Apps, Platform, website, and our SnapBack Apps Factory</a> where they are produced.  Together, this page, the FAQ, and the discussions of users, contributors, and CDP should convince you that this project is worthy of your full support.</p>
 	
-	<strong>How We Make Our Money...</strong>
   
 </div><!--End Tab2-->
       				
@@ -266,11 +292,7 @@
 	<h3>Technical Details</h3>
 	<p>Include, in specific wording, what your app does.  Some questions you may want to answer include: What files does your app change?  In what programming language is your app written?  Are there any resources you've used to create your app?  Feel free to include as much detail as you want.</p>
 
-	<hr />
-	
-	<h3>Script Source Code</h3>
-	<strong>cdpbutton1: <em>onclick="javascript:runapp('displaymessage.js')"</em></strong>
-	<p><iframe id="srccode" name="srccode" width="80%" frameborder="0" scrolling="auto" src="displaymessage.txt" seamless sandbox=""></iframe></p>
+
 			
 </div><!--End Tab3-->
       				
@@ -344,15 +366,13 @@
 </div><!--End Tab4-->
       
 <div id="tab5">
-			
-	<p class="developers-message">[To the Developer - Use this section to tell users how they can help improve this app]</p>
-	
+
 	<p><strong>There's a number of ways you can help with this App and users like you:</strong></p>
 
 	<ul>
-		<li><a id="uicontent" href="#" title="Your App's UI & Content Page"> UI & Content</a> - Request changes in the content or look of our App by editing a moderated version of the UI and Content page.</li>
-		<li><a id="requestfeature" href="#" title="Your App's Feature Request Page"> Request a Feature</a> - Want something extra? Request it by editing a moderated version of our Feature Request page.</li>
-		<li><a id="reportbug" href="#" title="Your App's Issues and Bugs Page"> Report a Bug or Issue</a> - Find something that does not work right? Report your bug or issue by editing a moderated version of the bug reporting page.</li>
+		<li><a id="uicontent" href="http://factory.snapback-apps.com/app/settings/ui-content/" title="Your App's UI & Content Page"> UI & Content</a> - Request changes in the content or look of our App by editing a moderated version of the UI and Content page.</li>
+		<li><a id="requestfeature" href="http://factory.snapback-apps.com/app/settings/request-new-features/" title="Your App's Feature Request Page"> Request a Feature</a> - Want something extra? Request it by editing a moderated version of our Feature Request page.</li>
+		<li><a id="reportbug" href="http://factory.snapback-apps.com/app/settings/issues-bugs/" title="Your App's Issues and Bugs Page"> Report a Bug or Issue</a> - Find something that does not work right? Report your bug or issue by editing a moderated version of the bug reporting page.</li>
 	</ul>
 
 	<h3>We Appreciate your Help!</h3>
